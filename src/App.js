@@ -13,8 +13,8 @@ const App = () => {
     <>
       <ParticleBackground />
       <Intro
-        name="Yajat Malhotra"
-        designation="Software Developer"
+        name="Rishi Gottumukkala"
+        designation="Computer Engineer"
         onExplore={openPortfolio}
       />
       {portfolio ? <Portfolio onClose={openPortfolio} /> : ""}

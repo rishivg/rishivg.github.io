@@ -16,19 +16,13 @@ const Nav = ({ openMenu, onClose, onChange, page, showMenu }) => {
             className={`${page === "projects" ? "nav-active" : ""}`}
             onClick={() => onChange("projects")}
           >
-            <span className={`show-option-${openMenu}`}><h1>Projects</h1></span>
+            <span className={`show-option-${openMenu}`}><h1>Work Experience</h1></span>
           </li>
           <li
             className={`${page === "blogs" ? "nav-active" : ""}`}
             onClick={() => onChange("blogs")}
           >
-            <span className={`show-option-${openMenu}`}><h1>Blogs</h1></span>
-          </li>
-          <li
-            className={`${page === "achievements" ? "nav-active" : ""}`}
-            onClick={() => onChange("achievements")}
-          >
-            <span className={`show-option-${openMenu}`}><h1>Achievements</h1></span>
+            <span className={`show-option-${openMenu}`}><h1>Projects</h1></span>
           </li>
         </ul>
         <FaTimes className="close-btn" onClick={onClose} />

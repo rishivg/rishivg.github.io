@@ -13,10 +13,10 @@ const Info = () => {
         <img className="profile-pic" src={profile_pic} alt="Yajat Malhotra"/>
       </div>
       <div className="about-me">
-        <h1>Yajat Malhotra</h1>
+        <h1>Rishi Gottumukkala</h1>
         <br />
         <p className="profile-description">
-        Currently a Senior at the University of Illinois at 
+        Hi! Im Rishi, and I am currently a Senior at the University of Illinois at 
         Urbana-Champaign pursuing a bachelor's degree in Computer 
         Engineering. My interests lie in the fields of ASIC Design, 
         FPGA Development, Embedded Firmware and Mobile Robotics.
