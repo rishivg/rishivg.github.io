@@ -16,17 +16,16 @@ const Info = () => {
         <h1>Yajat Malhotra</h1>
         <br />
         <p className="profile-description">
-          Hey there! I am freshman at Vellore Institute of
-          Technology. My career aspiration is to provide digital solutions for
-          real-life human and business problems utilizing my knowledge in AI and
-          Machine Learning, and Android Development. Other than tech, I enjoy
-          photography and film-making.
+        Currently a Senior at the University of Illinois at 
+        Urbana-Champaign pursuing a bachelor's degree in Computer 
+        Engineering. My interests lie in the fields of ASIC Design, 
+        FPGA Development, Embedded Firmware and Mobile Robotics.
         </p>
         <br />
         <div className="social-icons">
           <a
             className="social-icon"
-            href="https://linkedin.com/in/iamyajat"
+            href="https://www.linkedin.com/in/rishi-gottumukkala/"
             target="_blank"
             rel="noreferrer"
           >
@@ -34,35 +33,11 @@ const Info = () => {
           </a>
           <a
             className="social-icon"
-            href="https://github.com/iamyajat"
+            href="https://github.com/rishivg"
             target="_blank"
             rel="noreferrer"
           >
             <FaGithub />
-          </a>
-          <a
-            className="social-icon"
-            href="https://kaggle.com/iamyajat"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaKaggle />
-          </a>
-          <a
-            className="social-icon"
-            href="https://iamyajat.medium.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaMediumM />
-          </a>
-          <a
-            className="social-icon"
-            href="https://twitter.com/iamyajat"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaTwitter />
           </a>
         </div>
       </div>

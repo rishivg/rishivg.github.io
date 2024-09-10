@@ -7,8 +7,8 @@ const About = ({openMenu}) => {
   return (
     <div className={`portfolio-section opened-menu-${openMenu}`}>
       <Info />
-      <Skills />
       <Education />
+      <Skills />
       <ReactTooltip place="bottom" className="tooltip" />
     </div>
   );
