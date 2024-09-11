@@ -8,7 +8,7 @@ const Projects = ({openMenu}) => {
       id: 1,
       title: "RIVIAN LLC",
       description:
-        "An API which can classify website URLs into 10 different categories. The API was made using FastAPI and the model was made in Tensorflow using DistilBert Transformer from Hugging Face.",
+        "Validated hardware design of Rivian ECU’s using automated bare-metal Software Regression Application Frameworks. Integrated GNSS hardware testing across L1 and L5 bands into Rivian test suite using aarch64 demodulation and decoding. Performed antenna performance simulations on fluctuating antenna characteristics and vehicle dimensions.",
       link: "https://github.com/iamyajat/Smart-Bookmark-API",
       show: true,
     },
@@ -16,7 +16,7 @@ const Projects = ({openMenu}) => {
       id: 2,
       title: "Brunswick Corporation",
       description:
-        "An Android app for the event WomenTechies'21 which can send realtime notifications, show in-app announcements, Instagram highlights and timeline of the event, and other info.",
+        "Integrated LiDAR and Sonar system with a six stereo-camera array into software stack of Avator 48V Autonomous Boat. Collaborated on autonomous data injection system for ROS 2.0 data log packets for mass-training of real-time AI models. Architected and tested Arduino-based hardware and feedback controller for 2023 small-boat Brunswick project.",
       link: "https://play.google.com/store/apps/details?id=com.dscvit.wt21",
       show: true,
     },
@@ -24,7 +24,7 @@ const Projects = ({openMenu}) => {
       id: 3,
       title: "MSAC and IPOC Research Group",
       description:
-        "Developed an Android app to solve the problem of dehydration and weight abnormalities in people by keeping track of their water intake and BMI.",
+        "Led development of new electronics and hardware for new prototypes of piezoelectric spacecraft attitude control systems. Designed a PCB to act as a high-density power driver and 300 Volt full bridge rectifier with integrated gate drivers. Constructed a 2 mW communication system to stream serial data from nRF52840 integrated hardware to IoT devices.",
       link: "https://yazafit.iamyajat.co/",
       show: true,
     },
@@ -32,7 +32,7 @@ const Projects = ({openMenu}) => {
       id: 4,
       title: "KIMLAB Research Group",
       description:
-        "Developed an Android app to find your weight on other planets, for example, Venus, Jupiter, etc.",
+        "Led development of new electronics and hardware for new prototypes of piezoelectric spacecraft attitude control systems. Designed a PCB to act as a high-density power driver and 300 Volt full bridge rectifier with integrated gate drivers. Constructed a 2 mW communication system to stream serial data from nRF52840 integrated hardware to IoT devices.",
       link: "https://spaceweight.iamyajat.co/",
       show: true,
     },
@@ -40,7 +40,7 @@ const Projects = ({openMenu}) => {
       id: 5,
       title: "ECE OpenLab",
       description:
-        "Developed an Android app to find your weight on other planets, for example, Venus, Jupiter, etc.",
+        "Trained and mentored more than 700 lab users and 35 Registered Student Organizations with technical engineering projects. Reworked and machined new Reflow Oven for lab members, refurbished old Spot Welders and maintained 3D printers",
       link: "https://spaceweight.iamyajat.co/",
       show: true,
     },

@@ -16,7 +16,7 @@ const Blogs = ({openMenu}) => {
       id: 2,
       title: "IOSDR",
       description:
-        "GANs or Generative Adversarial Networks are a type of machine learning framework. It has two neural networks which compete against each other in a game. One is a generator, and the other is a discriminator.",
+        " Created an open-source software-defined FPGA radio hardware platform that supports dual multichannel transmission and reception, Gigabit Ethernet connection, Embedded Linux SoC development and GNU Radio blocks",
       link: "https://iamyajat.medium.com/intuition-for-gans-generative-adversarial-networks-beginner-friendly-4f38af40b9e1",
       show: true,
     },
@@ -32,7 +32,7 @@ const Blogs = ({openMenu}) => {
       id: 4,
       title: "Drone Inverted Pendulum",
       description:
-        "GANs or Generative Adversarial Networks are a type of machine learning framework. It has two neural networks which compete against each other in a game. One is a generator, and the other is a discriminator.",
+        "Prototyped Hardware and Feedback Controllers to balance stick on a CrazyFlie Drone for Illinois Engineering Open House Exhibit.",
       link: "https://iamyajat.medium.com/intuition-for-gans-generative-adversarial-networks-beginner-friendly-4f38af40b9e1",
       show: true,
     },
