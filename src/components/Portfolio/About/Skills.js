@@ -16,14 +16,10 @@ import { useState } from "react";
 
 const Skills = () => {
   const [certifications] = useState([
-    "Neural Networks and Deep Learning - deeplearning.ai",
-    "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization - deeplearning.ai",
-    "Structuring Machine Learning Projects - deeplearning.ai",
-    "Convolutional Neural Networks - deeplearning.ai",
-    "Introduction to AI - University of Helsinki",
-    "Microsoft AI Classroom Series - Microsoft",
-    "MATLAB Onramp - MathWorks",
-    "Getting Started: Create and Manage Cloud Resources - Qwiklabs",
+    "Languages/Middleware: C, C++, Rust, Python, Kotlin, Scala, Haskell, OCaml, x86, ARM, Verilog, VDHL, ROS 2.0",
+    "Computer Aided Design: Solidworks, Siemens NX, ANSYS, Autodesk Fusion 360, Creo, Abaqus, Altium, KiCAD",
+    "Manufacturing: Spot Welding, Reflow, CNC Mill, Laser Mill, Laser Cutter, Drill Press, 3D Printer, Lathe, Waterjet",
+    "Development: Agile, Jira, Trello, Git, Confluence, Teams, Asana, Slack, Azure, AWS, Bitbucket, Bluespec, Docker",
   ]);
 
   const [skills] = useState([
@@ -43,14 +39,7 @@ const Skills = () => {
 
   return (
     <div className="skills-card">
-      <h1 className="skills-heading">Skills</h1>
-      <ul className="list-inline dev-icons">
-        {skills.map((skill) => (
-          <li className="list-inline-item">{skill}</li>
-        ))}
-      </ul>
-      <br />
-      <h1 className="cert-heading">Certifications</h1>
+      <h1 className="cert-heading">Skills</h1>
       <ul className="cert-list">
         {certifications.map((certification) => (
           <li className="cert-content">▪ {certification}</li>
