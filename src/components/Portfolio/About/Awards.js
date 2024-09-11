@@ -2,10 +2,14 @@ import { useState } from "react";
 
 const Awards = () => {
 const [certifications] = useState([
-    "Languages/Middleware: C, C++, Rust, Python, Kotlin, Scala, Haskell, OCaml, x86, ARM, Verilog, VDHL, ROS 2.0",
-    "Computer Aided Design: Solidworks, Siemens NX, ANSYS, Autodesk Fusion 360, Creo, Abaqus, Altium, KiCAD",
-    "Manufacturing: Spot Welding, Reflow, CNC Mill, Laser Mill, Laser Cutter, Drill Press, 3D Printer, Lathe, Waterjet",
-    "Development: Agile, Jira, Trello, Git, Confluence, Teams, Asana, Slack, Azure, AWS, Bitbucket, Bluespec, Docker",
+    "NAR Level 2 HPR Certified",
+    "Amateur Extra Ham Radio VEC",
+    "FAA Remote Pilot",
+    "NHSCA Academic All American",
+    "2024 - 3rd place Distinguished Robotics Exhibit Award at EOH",
+    "2023 - 1st place Distinguished Robotics Exhibit Award at EOH",
+    "2023 - 1st place Best Demonstration of a STEM Principle Award at EOH",
+    "2023 - 2nd place Spirit of Innovation Award at EOH"
 ]);
 
 
