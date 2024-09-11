@@ -6,7 +6,7 @@ const Projects = ({openMenu}) => {
   const [projects] = useState([
     {
       id: 1,
-      title: "SMART BOOKMARK, API AND ML MODEL",
+      title: "RIVIAN LLC",
       description:
         "An API which can classify website URLs into 10 different categories. The API was made using FastAPI and the model was made in Tensorflow using DistilBert Transformer from Hugging Face.",
       link: "https://github.com/iamyajat/Smart-Bookmark-API",
@@ -14,7 +14,7 @@ const Projects = ({openMenu}) => {
     },
     {
       id: 2,
-      title: "WOMENTECHIES'21 ANDROID APP",
+      title: "Brunswick Corporation",
       description:
         "An Android app for the event WomenTechies'21 which can send realtime notifications, show in-app announcements, Instagram highlights and timeline of the event, and other info.",
       link: "https://play.google.com/store/apps/details?id=com.dscvit.wt21",
@@ -22,7 +22,7 @@ const Projects = ({openMenu}) => {
     },
     {
       id: 3,
-      title: "YAZAFIT: BMI & WATER TRACKER",
+      title: "MSAC and IPOC Research Group",
       description:
         "Developed an Android app to solve the problem of dehydration and weight abnormalities in people by keeping track of their water intake and BMI.",
       link: "https://yazafit.iamyajat.co/",
@@ -30,7 +30,7 @@ const Projects = ({openMenu}) => {
     },
     {
       id: 4,
-      title: "SPACEWEIGHT: YOUR WEIGHT ON OTHER WORLDS",
+      title: "KIMLAB Research Group",
       description:
         "Developed an Android app to find your weight on other planets, for example, Venus, Jupiter, etc.",
       link: "https://spaceweight.iamyajat.co/",
@@ -38,10 +38,11 @@ const Projects = ({openMenu}) => {
     },
     {
       id: 5,
-      title: "ABCD: EFGHIJKLMG HIJKLMNOPQ RSTUVWXYZ",
-      description: "",
-      link: "",
-      show: false,
+      title: "ECE OpenLab",
+      description:
+        "Developed an Android app to find your weight on other planets, for example, Venus, Jupiter, etc.",
+      link: "https://spaceweight.iamyajat.co/",
+      show: true,
     },
     {
       id: 6,

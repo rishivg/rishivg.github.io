@@ -3,8 +3,6 @@ import {
   FaLinkedinIn,
   FaGithub,
   FaKaggle,
-  FaTwitter,
-  FaMediumM,
 } from "react-icons/fa";
 const Info = () => {
   return (
