@@ -10,7 +10,7 @@ const Education = () => {
           <p style={{ "font-weight": "900" }}>
             Bachelor's in Computer Engineering
           </p>
-          <p>September 2017 - May 2021</p>
+          <p>August 2021 - December 2025</p>
           {/* <p>CGPA: </p> */}
         </div>
         <div className="school-info">
@@ -19,7 +19,7 @@ const Education = () => {
           <br />
           <br />
           <p style={{ "font-weight": "900" }}>
-            Bachelor's in Computer Engineering
+            High School Diploma
           </p>
           <p>September 2017 - May 2021</p>
         </div>

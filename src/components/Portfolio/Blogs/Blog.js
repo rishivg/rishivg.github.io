@@ -11,7 +11,7 @@ const Blog = ({ blog }) => {
       <p>{blog.description}</p>
 
       <Button
-        text="Read Post"
+        text="Link"
         onClick={openBlog}
         design={`project-btn ${blog.show ? "" : "hide-btn"}`}
       />

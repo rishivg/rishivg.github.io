@@ -46,9 +46,9 @@ const Blogs = ({openMenu}) => {
     },
     {
       id: 5,
-      title: "Moblile Robotics",
+      title: "Eco Illini Supermileage",
       description:
-        "GANs or Generative Adversarial Networks are a type of machine learning framework. It has two neural networks which compete against each other in a game. One is a generator, and the other is a discriminator.",
+        " Developed a Controller Area Network subsystem to connect STM32 Microcontroller to peripheral devices for telemetry. Machined an eco fuel injection system for the Supermileage G5 car engine and designed system to test injector flow rate.",
       link: "https://iamyajat.medium.com/intuition-for-gans-generative-adversarial-networks-beginner-friendly-4f38af40b9e1",
       show: true,
     }
@@ -62,16 +62,6 @@ const Blogs = ({openMenu}) => {
             <Blog key={blog.id} blog={blog} />
           ))}
         </div>
-      </div>
-      <div className="github-card github-icons">
-        <a
-          className="github-icon"
-          href="https://iamyajat.medium.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaMediumM />
-        </a>
       </div>
     </>
   );

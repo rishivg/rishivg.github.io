@@ -10,11 +10,7 @@ const Project = ({ project }) => {
       <h1>{project.title}</h1>
       <p>{project.description}</p>
 
-      <Button
-        text="View Project"
-        onClick={openProject}
-        design={`project-btn ${project.show ? "" : "hide-btn"}`}
-      />
+
     </div>
   );
 };

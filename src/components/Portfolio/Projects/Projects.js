@@ -62,16 +62,6 @@ const Projects = ({openMenu}) => {
           ))}
         </div>
       </div>
-      <div className="github-card github-icons">
-        <a
-          className="github-icon"
-          href="https://github.com/iamyajat"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaGithub />
-        </a>
-      </div>
     </>
   );
 };
