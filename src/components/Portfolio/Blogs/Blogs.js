@@ -8,24 +8,24 @@ const Blogs = ({openMenu}) => {
       id: 1,
       title: "Illinois Space Society",
       description:
-        "GANs or Generative Adversarial Networks are a type of machine learning framework. It has two neural networks which compete against each other in a game. One is a generator, and the other is a discriminator.",
-      link: "https://iamyajat.medium.com/intuition-for-gans-generative-adversarial-networks-beginner-friendly-4f38af40b9e1",
+        " Installed 433 Mhz RF communication between rocket and ground station via Adafruit Feathers with LoRa Transceivers, Contributed to the Spaceshot Project’s ground station GUI, directed development of embedded Full-Duplex amplifier frontend, and implemented Software-Defined Reciever into rocket stack + more.",
+      link: "https://www.illinoisspacesociety.org/",
       show: true,
     },
     {
       id: 2,
       title: "IOSDR",
       description:
-        " Created an open-source software-defined FPGA radio hardware platform that supports dual multichannel transmission and reception, Gigabit Ethernet connection, Embedded Linux SoC development and GNU Radio blocks",
-      link: "https://iamyajat.medium.com/intuition-for-gans-generative-adversarial-networks-beginner-friendly-4f38af40b9e1",
+        " Created an open-source software-defined FPGA radio hardware platform that supports dual multichannel transmission and reception, Gigabit Ethernet connection, Embedded Linux SoC development and GNU Radio blocks.",
+      link: "https://github.com/rishivg/IO-SDR",
       show: true,
     },
     {
       id: 3,
       title: "SHA256-AXI4-Accelerator",
       description:
-        "GANs or Generative Adversarial Networks are a type of machine learning framework. It has two neural networks which compete against each other in a game. One is a generator, and the other is a discriminator.",
-      link: "https://iamyajat.medium.com/intuition-for-gans-generative-adversarial-networks-beginner-friendly-4f38af40b9e1",
+        "Created a VHDL design for a pipelined SHA256 hardware accelerator block that is AXI4 Compliant. Synthesized and Mapped for the Zynq7020 SoC with an accompanying test bench and verification.",
+      link: "https://github.com/rishivg/SHA256-AXI4-Accelerator",
       show: true,
     },
     {
@@ -38,9 +38,9 @@ const Blogs = ({openMenu}) => {
     },
     {
       id: 5,
-      title: "Moblile Robotics",
+      title: "Mobile Robotics",
       description:
-        "GANs or Generative Adversarial Networks are a type of machine learning framework. It has two neural networks which compete against each other in a game. One is a generator, and the other is a discriminator.",
+        "Designed and manufactured power distribution and communication circuit boards for EOH Autonomous Robotics Project.",
       link: "https://iamyajat.medium.com/intuition-for-gans-generative-adversarial-networks-beginner-friendly-4f38af40b9e1",
       show: true,
     },

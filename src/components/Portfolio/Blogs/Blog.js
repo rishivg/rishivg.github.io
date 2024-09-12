@@ -9,12 +9,6 @@ const Blog = ({ blog }) => {
     <div className={`project-card ${blog.show ? "" : "hide-card"}`}>
       <h1>{blog.title}</h1>
       <p>{blog.description}</p>
-
-      <Button
-        text="Link"
-        onClick={openBlog}
-        design={`project-btn ${blog.show ? "" : "hide-btn"}`}
-      />
     </div>
   );
 };

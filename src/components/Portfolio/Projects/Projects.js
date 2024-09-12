@@ -24,7 +24,7 @@ const Projects = ({openMenu}) => {
       id: 3,
       title: "MSAC and IPOC Research Group",
       description:
-        "Led development of new electronics and hardware for new prototypes of piezoelectric spacecraft attitude control systems. Designed a PCB to act as a high-density power driver and 300 Volt full bridge rectifier with integrated gate drivers. Constructed a 2 mW communication system to stream serial data from nRF52840 integrated hardware to IoT devices.",
+        "Led development of new electronics and hardware for new prototypes of piezoelectric spacecraft attitude control systems. Designed a PCB to act as a high-density power driver and 300 Volt full bridge rectifier with integrated gate drivers. Constructed 2 mW communication system to stream data from nRF52840 integrated hardware to IoT devices.",
       link: "https://yazafit.iamyajat.co/",
       show: true,
     },
@@ -32,7 +32,7 @@ const Projects = ({openMenu}) => {
       id: 4,
       title: "KIMLAB Research Group",
       description:
-        "Led development of new electronics and hardware for new prototypes of piezoelectric spacecraft attitude control systems. Designed a PCB to act as a high-density power driver and 300 Volt full bridge rectifier with integrated gate drivers. Constructed a 2 mW communication system to stream serial data from nRF52840 integrated hardware to IoT devices.",
+        "Machining and Constructing a novel leg-wheel transformer robot incorporating a monocycle chassis mechanism with two 3 DoF legs. Working on improving both the finite state machine and brake steering controller in ROS.",
       link: "https://spaceweight.iamyajat.co/",
       show: true,
     },
@@ -40,7 +40,7 @@ const Projects = ({openMenu}) => {
       id: 5,
       title: "ECE OpenLab",
       description:
-        "Trained and mentored more than 700 lab users and 35 Registered Student Organizations with technical engineering projects. Reworked and machined new Reflow Oven for lab members, refurbished old Spot Welders and maintained 3D printers",
+        "Trained and mentored more than 700 lab users and 35 Registered Student Organizations with technical engineering projects. Reworked and machined new Reflow Oven for lab members, refurbished old Spot Welders and maintained 3D printers.",
       link: "https://spaceweight.iamyajat.co/",
       show: true,
     },
