@@ -45,7 +45,7 @@ const Blogs = ({openMenu}) => {
       show: true,
     },
     {
-      id: 5,
+      id: 6,
       title: "Eco Illini Supermileage",
       description:
         " Developed a Controller Area Network subsystem to connect STM32 Microcontroller to peripheral devices for telemetry. Machined an eco fuel injection system for the Supermileage G5 car engine and designed system to test injector flow rate.",

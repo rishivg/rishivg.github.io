@@ -17,7 +17,7 @@ const Info = () => {
         Hi! Im Rishi, and I am currently a Senior at the University of Illinois at 
         Urbana-Champaign pursuing a bachelor's degree in Computer 
         Engineering. My interests lie in the fields of ASIC Design, 
-        FPGA Development, Embedded Firmware and Mobile Robotics.
+        FPGA Development, Hardware Design and Mobile Robotics.
         </p>
         <br />
         <div className="social-icons">
