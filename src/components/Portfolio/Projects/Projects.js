@@ -64,6 +64,5 @@ const Projects = ({openMenu}) => {
       </div>
     </>
   );
-};
-
+}; 
 export default Projects;
