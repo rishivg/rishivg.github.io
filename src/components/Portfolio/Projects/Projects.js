@@ -5,9 +5,9 @@ import { FaGithub } from "react-icons/fa";
 const Projects = ({openMenu}) => {
   const [projects] = useState([
         {
-      id: 6,
-      title: "ABCD: EFGHIJKLMG HIJKLMNOPQ RSTUVWXYZ",
-      description: "",
+      id: 1,
+      title: "CesiumAstro Inc.",
+      description: "Tested and validated RX backplane PCBs for Skylark Ka-band SATCOM terminal flat-panel AESA phased array module. Invented RF, Digital, and Power software testing suite to control DVT and acceptance testing on PolarFire FPGA boards. Designed Receive and Transmit Tile Control Unit PCBs for Low Earth and Geosynchronous Orbit Element Satellites",
       link: "",
       show: true,
     },
