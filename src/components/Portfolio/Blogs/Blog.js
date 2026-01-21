@@ -1,5 +1,3 @@
-import Button from "../../General/Button";
-
 const Blog = ({ blog }) => {
   const openBlog = () => {
     window.open(blog.link, "_blank");

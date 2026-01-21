@@ -1,5 +1,3 @@
-import Button from "../../General/Button";
-
 const Project = ({ project }) => {
   const openProject = () => {
     window.open(project.link, "_blank");

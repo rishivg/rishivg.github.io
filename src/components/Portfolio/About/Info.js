@@ -2,7 +2,6 @@ import profile_pic from "../../../assets/images/profile.jpg";
 import {
   FaLinkedinIn,
   FaGithub,
-  FaKaggle,
 } from "react-icons/fa";
 const Info = () => {
   return (

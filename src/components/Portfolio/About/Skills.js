@@ -2,8 +2,8 @@ import { useState } from "react";
 
 const Skills = () => {
   const [certifications] = useState([
-    "Languages/Middleware: C, C++, Rust, Python, Haskell, OCaml, RISCV, SystemVerilog, VDHL, ROS 2.0",
-    "Computer Aided Design: Solidworks, Siemens NX, ANSYS, Abaqus, Altium Designer, LTSpice, PSpice, ADS, KiCAD",
+    "Languages/Middleware: C, C++, Rust, Python, Haskell, OCaml, RISCV, SystemVerilog, Chisel, ROS 2.0",
+    "Tools: Vivado, Cocotb, UVM, Verilator, ANSYS, Altium Designer, LTSpice, KiCAD, ModelSim, Cadence",
     "Manufacturing: Spot Welding, CNC Mill, Laser Mill, Laser Cutter, Drill Press, 3D Printer, Lathe, Waterjet",
   ]);
 
