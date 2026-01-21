@@ -51,6 +51,22 @@ const Blogs = ({openMenu}) => {
         " Developed a Controller Area Network subsystem to connect STM32 Microcontroller to peripheral devices for telemetry. Machined an eco fuel injection system for the Supermileage G5 car engine and designed system to test injector flow rate.",
       link: "https://iamyajat.medium.com/intuition-for-gans-generative-adversarial-networks-beginner-friendly-4f38af40b9e1",
       show: true,
+    },
+    {
+      id: 7,
+      title: "Illinois Space Society",
+      description:
+        " Installed 433 Mhz RF communication between rocket and ground station via Adafruit Feathers with LoRa Transceivers, Contributed to the Spaceshot Project’s ground station GUI, directed development of embedded Full-Duplex amplifier frontend, and implemented Software-Defined Reciever into rocket stack + more.",
+      link: "https://www.illinoisspacesociety.org/",
+      show: true,
+    },
+    {
+      id: 8,
+      title: "Illinois Space Society",
+      description:
+        " Installed 433 Mhz RF communication between rocket and ground station via Adafruit Feathers with LoRa Transceivers, Contributed to the Spaceshot Project’s ground station GUI, directed development of embedded Full-Duplex amplifier frontend, and implemented Software-Defined Reciever into rocket stack + more.",
+      link: "https://www.illinoisspacesociety.org/",
+      show: true,
     }
   ]);
 

@@ -1,6 +1,5 @@
-import { FaTimes } from "react-icons/fa";
 import Button from "../General/Button";
-const Nav = ({ openMenu, onClose, onChange, page, showMenu }) => {
+const Nav = ({ openMenu, onChange, page, showMenu }) => {
   return (
     <>
       <nav className={`nav-bar menu-open-${openMenu}`}>
@@ -25,7 +24,6 @@ const Nav = ({ openMenu, onClose, onChange, page, showMenu }) => {
             <span className={`show-option-${openMenu}`}><h1>Projects</h1></span>
           </li>
         </ul>
-        <FaTimes className="close-btn" onClick={onClose} />
       </nav>
     </>
   );

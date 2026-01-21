@@ -8,48 +8,85 @@ const ParticleBackground = () => {
         params={{
           particles: {
             number: {
-              value: 100,
+              value: 60,
               density: {
+                enable: true,
+                value_area: 800,
+              },
+            },
+            color: {
+              value: "#ffffff",
+            },
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 0,
+                color: "#000000",
+              },
+            },
+            opacity: {
+              value: 0.2,
+              random: false,
+              anim: {
                 enable: false,
+                speed: 1,
+                opacity_min: 0.1,
+                sync: false,
               },
             },
             size: {
-              value: 1.8,
+              value: 3,
               random: true,
               anim: {
-                speed: 4,
-                size_min: 0.3,
+                enable: false,
+                speed: 40,
+                size_min: 0.1,
+                sync: false,
               },
             },
             line_linked: {
-              enable: false,
+              enable: true,
+              distance: 150,
+              color: "#ffffff",
+              opacity: 0.2,
+              width: 1,
             },
             move: {
-              random: true,
-              direction: "top",
+              enable: true,
+              speed: 1.5,
+              direction: "none",
+              random: false,
+              straight: false,
               out_mode: "out",
-              speed: 0.1,
             },
           },
           interactivity: {
+            detect_on: "window",
             events: {
+              onhover: {
+                enable: true,
+                mode: "grab",
+              },
               onclick: {
                 enable: true,
-                mode: "push",
+                mode: "repulse",
               },
+              resize: true,
             },
             modes: {
-              bubble: {
-                distance: 250,
-                duration: 2,
-                size: 0,
-                opacity: 0,
+              grab: {
+                distance: 200,
+                line_linked: {
+                  opacity: 0.5,
+                },
               },
-              push: {
-                particles_nb: 1,
+              repulse: {
+                distance: 200,
+                duration: 0.4,
               },
             },
           },
+          retina_detect: true,
         }}
       />
     </>

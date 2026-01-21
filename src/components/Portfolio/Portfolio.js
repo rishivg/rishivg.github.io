@@ -5,7 +5,7 @@ import Blogs from "./Blogs/Blogs";
 import Nav from "./Nav";
 import Projects from "./Projects/Projects";
 
-const Portfolio = ({ onClose }) => {
+const Portfolio = () => {
   const [page, setPage] = useState("about");
   const [openMenu, setOpenMenu] = useState(false);
 
@@ -19,7 +19,7 @@ const Portfolio = ({ onClose }) => {
   return (
     <>
       <div className="portfolio-card">
-        <Nav openMenu={openMenu} onClose={onClose} onChange={changePage} page={page} showMenu={showMenu} />
+        <Nav openMenu={openMenu} onChange={changePage} page={page} showMenu={showMenu} />
         {page === "about" ? <About openMenu={openMenu}/> : ""}
         {page === "projects" ? <Projects openMenu={openMenu}/> : ""}
         {page === "blogs" ? <Blogs openMenu={openMenu}/> : ""}
